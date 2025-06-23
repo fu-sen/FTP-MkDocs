@@ -1,10 +1,9 @@
-## Nekoweb-MkDocs
+## FTP-MkDocs
 
-<https://github.com/fu-sen/Nekoweb-MkDocs>
+<https://github.com/fu-sen/FTP-MkDocs>
 
-**MkDocs with Nekoweb (minimal configuration)**
+**MkDocs with FTP (minimal configuration)**
 
-- [Nekoweb](https://nekoweb.org/)
 - [MkDocs](https://www.mkdocs.org/)
 
 ## How to use
