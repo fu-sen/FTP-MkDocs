@@ -1,35 +1,32 @@
 <!-- 2025/06/22 MkDocs 1.6.1 -->
 
-## Nekoweb-MkDocs
+## FTP-MkDocs
 
-**MkDocs with Nekoweb (minimal configuration)**
+**MkDocs with FTP (minimal configuration)**
 
-- [Nekoweb](https://nekoweb.org/)
 - [MkDocs](https://www.mkdocs.org/)
 
 ## How to use
 
 1. Edit `mkdocs.yml` and `docs/index.md`, add more files if needed.
 2. Add the pip package to `requirements.txt` . (Themes and plugins)
-3. Log in to Nekoweb and Browse [API](https://nekoweb.org/api)
-5. Select `Generate API Key` in `API Key`. 
-6. The API Key will be displayed, so save this text string.
-7. Browse [deploy2web # getting your cookie!](https://deploy.nekoweb.org/#getting-your-cookie)
-8. Follow the steps described to get `Cookie Token` .
-9. Select `Settings` for your GitHub project.
-10. Select `Secrets and variables ` in `Secrets`.
-11. Select `Actions`
-12. Select `New repository secrets`.
-13. Enter `NEKOWEB_API_KEY` in Name and API Key in Value.
-14. Select `New repository secrets`.
-15. Enter `NEKOWEB_COOKIE` in Name and Cookie Token in Value.
-16. Commit to a GitHub project: `git push`
+3. Select `Settings` for your GitHub project.
+4. Select `Secrets and variables ` in `Secrets`.
+5. Select `Actions`
+6. Select `New repository secrets`.
+7. Add the following name and value:
+    - FTP_SERVER: FTP server name
+    - FTP_USERNAME: FTP user name
+    - FTP_PASSWORD: FTP password
+    - FTP_PROTOCOL: `ftp` or `ftps` (`ftps` is recommended)
+    - FTP_SERVERDIR: Destination FTP server directory ()
+8. Commit to a GitHub project: `git push`
 
-Cookie Token is optional.
+Please check with your FTP client before configuring.  
 
 ## Note
 
-If you have created your own `cursor.png` or `elements.css` ,  
+If you have created `.htaccess` ,  
 please include the file in the `docs/` folder.
 
 ## Build error
