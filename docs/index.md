@@ -16,11 +16,11 @@
 6. Select `New repository secrets`.
 7. Add the following name and value:
     - FTP_SERVER: FTP server name
-    - FTP_PORT: FTP port number
+    - FTP_PORT: FTP port number (optional)
     - FTP_USERNAME: FTP user name
     - FTP_PASSWORD: FTP password
     - FTP_PROTOCOL: `ftp` or `ftps` (`ftps` is recommended)
-    - FTP_SERVERDIR: Destination FTP server directory ()
+    - FTP_SERVERDIR: Destination FTP server directory
 8. Commit to a GitHub project: `git push`
 
 Please check with your FTP client before configuring.  
