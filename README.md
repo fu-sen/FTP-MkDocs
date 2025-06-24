@@ -25,11 +25,6 @@
 
 Please check with your FTP client before configuring.  
 
-## Note
-
-If you have created `.htaccess` ,  
-please include the file in the `docs/` folder.
-
 ## Build error
 
 Many of the build error are that you mistyped `mkdocs.yml`
