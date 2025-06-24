@@ -16,6 +16,7 @@
 6. Select `New repository secrets`.
 7. Add the following name and value:
     - FTP_SERVER: FTP server name
+    - FTP_PORT: FTP port number
     - FTP_USERNAME: FTP user name
     - FTP_PASSWORD: FTP password
     - FTP_PROTOCOL: `ftp` or `ftps` (`ftps` is recommended)
