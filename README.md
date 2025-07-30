@@ -1,4 +1,4 @@
-<!-- 2025/06/22 MkDocs 1.6.1 -->
+<!-- 2025/07/30 MkDocs 1.6.1 -->
 
 ## FTP-MkDocs
 
@@ -23,7 +23,7 @@
     - FTP_SERVERDIR: Destination FTP server directory
 8. Commit to a GitHub project: `git push`
 
-Please check with your FTP client before configuring.  
+Please check with your FTP client before configuring.
 
 ## Build error
 
